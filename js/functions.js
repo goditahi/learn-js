@@ -40,12 +40,21 @@
 // const sum=arr.reduce((acc,ind)=>{return acc+ind})
 // console.log(sum)
 
+// const prices = {
+//     a: 100,
+//     b: 200,
+//     c: 300
+//   };
+
+//   const totalPayment=Object.values(prices).reduce((acc,curr)=>{return acc+curr});
+//   console.log(totalPayment)
+
+
 const prices = {
     a: 100,
     b: 200,
     c: 300
   };
 
-  const totalPayment=Object.values(prices).reduce((acc,curr)=>{return acc+curr});
+  const totalPayment=Object.values(prices).reduce((prev,curr)=>{return curr>prev?curr:prev});
   console.log(totalPayment)
-
