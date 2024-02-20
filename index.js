@@ -37,3 +37,8 @@
 // console.log(answer)
 
 // let a=[1,2,3,4,5]
+
+// stirng methods
+
+let str="Anshul Negi"
+ console.log(str)
