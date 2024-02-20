@@ -56,5 +56,6 @@ const prices = {
     c: 300
   };
 
-  const totalPayment=Object.values(prices).reduce((prev,curr)=>{return curr>prev?curr:prev});
+  const totalPayment=Object.values(prices).reduce((prev,curr)=>{return prev});
+
   console.log(totalPayment)
