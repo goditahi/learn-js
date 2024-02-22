@@ -17,27 +17,34 @@
 
 // console.dir(bigBox)
 
-let ele=document.getElementById("demo");
-ele.innerText="hello world"
-ele.style.backgroundColor="red"
-let link=document.getElementById("anc");
-link.setAttribute("href", 'https://www.w3schools.com')
+// let ele=document.getElementById("demo");
+// ele.innerText="hello world"
+// ele.style.backgroundColor="red"
+// let link=document.getElementById("anc");
+// link.setAttribute("href", 'https://www.w3schools.com')
 
 
 
-    // Create a new paragraph element
-    var paragraph = document.createElement("p");
-    console.dir(paragraph)
+//     // Create a new paragraph element
+//     var paragraph = document.createElement("p");
+//     console.dir(paragraph)
 
-    paragraph.textContent="hello guys i am fine"
+//     paragraph.textContent="hello guys i am fine"
 
-    // Append the paragraph element to the body of the document body is paraent element so we have to append paragraph as a child element
-    document.body.appendChild(paragraph);
+//     // Append the paragraph element to the body of the document body is paraent element so we have to append paragraph as a child element
+//     document.body.appendChild(paragraph);
 
 
-    // we have to make sure to give the parent value before removing the element 
+//     // we have to make sure to give the parent value before removing the element 
 
-    document.body.removeChild(link)
+//     document.body.removeChild(link)
 
-    document.getElementById("date").innerHTML="Date: " +Date();
-    console.dir(document.write("helf"))
+//     document.getElementById("date").innerHTML="Date: " +Date();
+//     console.dir(document.write("helf"))
+
+const heading=document.querySelector('h1');
+const fun=()=>{
+    heading.textContent="i am a devloper";
+}
+
+setInterval(fun, 3000);
